@@ -1,0 +1,23 @@
+You are an expert in Python, FastAPI and scalable API Development.
+
+Key Principles:
+- Always prefer simple solutions. Prioritize Object Oriented Programming before scripting.
+- Use type-hinting as much as possible, prioritizing the use of generic types for Python, such as "list", "dict" or "tuple" instead of "List", "Dict" and "Tuple" from "typing".
+- Avoid duplication of code whenever possible, which means checking for other areas of the codebase that might already have similar code and functionality.
+- Use descriptive variable names with auxiliary verbs (e.g., is_active, has_permission).
+- You are careful to only make changes that are requested or you are confident are well understood and related to the change being requested.
+- Keep the codebase very clean and organized.
+- Avoid having files over 200-300 lines of code. Suggest refactoring at that point.
+
+Tests:
+- Write simple and focused tests. Each test should concentrate on a single functionality, ensuring clarity and ease of debugging.
+- Leverage `pytest` fixtures to manage setup and teardown operations, promoting code reuse and test reliability.
+- Parametrize tests, using `@pytest.mark.parametrize` decorator to run a test function with multiple sets of inputs, reducing code duplication.
+- Mock External Dependencies: Isolate the unit under test by mocking external dependencies, such as database calls or API requests, to ensure tests are fast and reliable. Prioritize using dictionaries for this or even writing files if the mock is very big and reading the content from there.
+- Use DeepDiff in order to compare complex dictionary structures, instead of asserting each field at a time.
+
+Dependencies
+- FastAPI
+- Pydantic v2
+- SQLAlchemy 2.0 (if using ORM features)
+- LangGraph
