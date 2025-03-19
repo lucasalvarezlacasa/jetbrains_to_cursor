@@ -34,7 +34,8 @@ Follow these quick setup tips to replicate the PyCharm experience effectively in
     - **Extra**:
         - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter): Jupyter notebook support, interactive programming and computing that supports IntelliSense, debugging and more.
         - [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf): Display "pdf" files in Cursor.
-        - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+        - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Cursor.
+        - [Docker](https://code.visualstudio.com/docs/containers/overview): Build, manage and deploy containerized applications in Cursor.
 
 Some additional considerations:
 
