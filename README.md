@@ -36,6 +36,7 @@ Follow these quick setup tips to replicate the PyCharm experience effectively in
         - [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf): Display "pdf" files in Cursor.
         - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Cursor.
         - [Docker](https://code.visualstudio.com/docs/containers/overview): Build, manage and deploy containerized applications in Cursor.
+        - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml): Fully-featured TOML support.
 
 Some additional considerations:
 
