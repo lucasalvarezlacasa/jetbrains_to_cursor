@@ -41,6 +41,7 @@ Follow these quick setup tips to replicate the PyCharm experience effectively in
         - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Cursor.
         - [Docker](https://code.visualstudio.com/docs/containers/overview): Build, manage and deploy containerized applications in Cursor.
         - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml): Fully-featured TOML support.
+        - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Supercharge Git within Cursor. Very useful for being able to generate links from specific lines of code (pointing to the server URL) and so on.
 
 Some additional considerations:
 
