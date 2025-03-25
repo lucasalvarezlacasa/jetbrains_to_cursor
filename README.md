@@ -17,10 +17,14 @@ Follow these quick setup tips to replicate the PyCharm experience effectively in
    - Choose the **Dark+** mode to maintain visual consistency.
    - If some of the colours are still a bit off, you can always tune via the `settings.json` file.
 
-2. **Preserve Your Shortcuts**
+2. **Install the JetBrains Icon Theme**
+    - Get the [JetBrains Icon Theme](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme) extension.
+    - Choose the **UI Dark** mode to maintain visual consistency.
+
+3. **Preserve Your Shortcuts**
    - Install the [IntelliJ IDEA Keybindings](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings) extension. This keeps most familiar shortcuts from JetBrains.
 
-3. **Install Essential Extensions**
+4. **Install Essential Extensions**
     - **Core Python Support**
         - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Core language support from Microsoft.
         - [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy): Enhanced debugging capabilities.
