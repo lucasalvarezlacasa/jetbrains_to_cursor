@@ -1,0 +1,53 @@
+{
+    "[python]": {
+        "black-formatter.args": [
+            "--line-length",
+            "120"
+        ],
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true
+    },
+    "debug.console.fontSize": 12,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.unusedImports": "explicit"
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 12,
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/.tox": true,
+        "**/ai_orchestrator.egg-info": true,
+        "**/app.egg-info": true,
+        "**/build": true,
+        "**/__pycache__": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.inheritEnv": false,
+    "testing.messageFont.size": 12,
+    "window.commandCenter": true,
+    "window.zoomLevel": 1.4,
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.colorCustomizations": {
+        "diffEditor.insertedLineBackground": "#052D0E80",
+        "diffEditor.insertedTextBackground": "#052D0E80",
+        "diffEditor.removedLineBackground": "#330A0A80",
+        "diffEditor.removedTextBackground": "#330A0A80",
+        "editorGutter.addedBackground": "#052D0E80",
+        "editorGutter.deletedBackground": "#330A0A80",
+        "gitDecoration.addedResourceForeground": "#052D0E80",
+        "gitDecoration.deletedResourceForeground": "#330A0A80"
+    },
+    "workbench.colorTheme": "PyCharm Dark+ Theme",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.list.openMode": "singleClick",
+    "workbench.tree.indent": 13
+}
