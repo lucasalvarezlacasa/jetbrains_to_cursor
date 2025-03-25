@@ -89,7 +89,7 @@ Set up run and debugging configurations. Notice that PyCharm by default will pre
 
 ## Editor Customization
 
-In case you want to use it as a baseline, this is my fine-tuned [settings.json](./my_settings.json) file. Apart from these, tune the following settings:
+In case you want to use it as a baseline, this is my fine-tuned [cursor_settings.json](./cursor_settings.json) file. Apart from these, tune the following settings:
 
 - **View Optimization:** Go to `View → Appearance → Align Panel → Left` to optimize your workspace layout. This will make the Terminal panel extend horizontally, as it does in PyCharm.
 
@@ -101,7 +101,7 @@ In case you want to use it as a baseline, this is my fine-tuned [settings.json](
 
 [Rules](https://docs.cursor.com/context/rules-for-ai) are key to customize the behavior of the underlying model. They need to be stored un `.cursor/rules`.
 
-Here are the [rules](./python_rules.mcd) I'm currently using for Python.
+Here are the [rules](./cursor_rules.mcd) I'm currently using for Python.
 
 You're all set! Cursor is now optimized to deliver a smooth, productive experience similar to PyCharm. Happy coding!
 
