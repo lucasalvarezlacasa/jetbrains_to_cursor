@@ -25,6 +25,9 @@ For the easiest possible setup experience:
    ```bash
    cd /folder/where/jetbrains_to_cursor/was/cloned
    bash setup.sh --path /path/to/your/project
+
+   # If you use "fish" run:
+   # "bass source setup.sh --path /path/to/your/project"
    ```
 
    This script will:
@@ -38,11 +41,14 @@ For the easiest possible setup experience:
 
 3. **Install recommended extensions**
    - Open your target project in Cursor
-   - After running the script, open the Extensions panel (`Ctrl+Shift+X)
+   - After running the script, open the Extensions panel (`Ctrl+Shift+X`)
    - Type `@recommended` in the search bar
    - Click 'Install All' to install the full suite of recommended extensions
 
 4. **Restart Cursor** for all settings to take effect
+
+5. There are some minor configurations you cannot set programatically. Find them in
+   [editor-customization](#editor-customization)
 
 ### Alternative: Manual Setup
 
@@ -110,7 +116,7 @@ Set up run and debugging configurations. Notice that PyCharm by default will pre
 
 In case you want to use it as a baseline, this are my fine-tuned [settings.json](./.vscode/settings.json) file. Apart from these, tune the following settings:
 
-- **View Optimization:** Go to `View → Appearance → Align Panel → Left` to optimize your workspace layout. This will make the Terminal panel extend horizontally, as it does in PyCharm.
+- **View Optimization:** Go to the top menu, `View → Appearance → Align Panel → Left` to optimize your workspace layout. This will make the Terminal panel extend horizontally, as it does in PyCharm.
 
 - **Large context:** For larger projects, go to `Cursor Settings → Features → Large context` and enable it for improved readability.
 
