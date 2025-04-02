@@ -157,7 +157,7 @@ function show_next_steps() {
     echo -e "2. Type ${CYAN}@recommended${NC} in the search bar"
     echo -e "3. Click ${CYAN}Install All${NC} to install recommended extensions"
     echo -e "4. Restart Cursor IDE"
-    echo -e "5. Follow extra minir configurations on ${CYAN}README.md${NC}"
+    echo -e "5. Follow extra minor configurations on ${CYAN}README.md${NC}"
     echo
     echo -e "${GREEN}Enjoy your JetBrains-like experience in Cursor!${NC}"
 }
