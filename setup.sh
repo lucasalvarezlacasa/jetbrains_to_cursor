@@ -15,16 +15,14 @@ CONFIG_SOURCE_DIR="$SCRIPT_DIR"
 
 # Print usage information
 function print_usage() {
-    echo -e "${CYAN}Usage:${NC} $0 [options] [project_path]"
+    echo -e "${CYAN}Usage:${NC} $0 [options]"
     echo
     echo "Options:"
     echo "  -h, --help         Show this help message"
-    echo "  -p, --path PATH    Path to your project (default: current directory)"
+    echo "  -p, --path PATH    Path to your project (required)"
     echo
     echo "Example:"
     echo "  $0 --path /path/to/your/project"
-    echo "  $0 /path/to/your/project"
-    echo "  $0  # Uses current directory"
 }
 
 # Print a section header
@@ -179,17 +177,16 @@ function main() {
                 shift 2
                 ;;
             *)
-                if [ -z "$TARGET_DIR" ]; then
-                    TARGET_DIR="$1"
-                fi
-                shift
+                print_error "Invalid argument: $1"
+                print_usage
+                exit 1
                 ;;
         esac
     done
     
     # Check if target directory is specified
     if [ -z "$TARGET_DIR" ]; then
-        print_error "Target directory is required. Use --path option or provide it as an argument."
+        print_error "Target directory is required. Use --path option."
         print_usage
         exit 1
     fi
