@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+        "nicohlr.pycharm",
+        "chadalen.vscode-jetbrains-icon-theme",
+        "k--kato.intellij-idea-keybindings",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "LittleFoxTeam.vscode-python-test-adapter",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "mgesbert.python-path",
+        "magicstack.MagicPython",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter",
+        "tomoki1207.pdf",
+        "DavidAnson.vscode-markdownlint",
+        "ms-azuretools.vscode-docker",
+        "tamasfe.even-better-toml",
+        "eamodio.gitlens"
+    ]
+}

@@ -34,8 +34,8 @@
     "terminal.integrated.inheritEnv": false,
     "testing.messageFont.size": 12,
     "window.commandCenter": true,
-    "window.zoomLevel": 1.4,
-    "workbench.activityBar.orientation": "vertical",
+    "window.zoomLevel": 1.35,
+    //"workbench.activityBar.orientation": "vertical",
     "workbench.colorCustomizations": {
         "diffEditor.insertedLineBackground": "#052D0E80",
         "diffEditor.insertedTextBackground": "#052D0E80",
