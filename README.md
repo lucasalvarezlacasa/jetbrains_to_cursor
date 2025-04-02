@@ -59,24 +59,7 @@ _More useful recommendations can be found in the following [link](https://docs.c
 
 Set up run and debugging configurations. Notice that PyCharm by default will prepend the `PYTHONPATH` to the script execution. This is something we have to configure in Cursor.
 
-- Create `.vscode/launch.json`:
-
-    ```json
-    {
-        "version": "0.2.0",
-        "configurations": [
-            {
-                "name": "Debug Current Python File",
-                "type": "debugpy",
-                "request": "launch",
-                "program": "${file}",
-                "envFile": "${workspaceFolder}/.env",
-                "console": "integratedTerminal"
-            }
-        ]
-    }
-    ```
-
+- Create [.vscode/launch.json](./.vscode/launch.json)
 - Create an `.env` file in the project's root with your environment variables:
 
     ```
