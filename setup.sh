@@ -173,6 +173,11 @@ function main() {
                 exit 0
                 ;;
             -p|--path)
+                if [[ -z "$2" || "$2" == -* ]]; then
+                    print_error "The --path option requires a non-empty value."
+                    print_usage
+                    exit 1
+                fi
                 TARGET_DIR="$2"
                 shift 2
                 ;;
